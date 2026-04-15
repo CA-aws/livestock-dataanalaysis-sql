@@ -34,9 +34,13 @@ SQL Analysis:
    
 Basic inspection of dataset structure and values 
 
+<img width="1063" height="766" alt="Datasetpreview" src="https://github.com/user-attachments/assets/b98157f9-b325-4a1f-90d4-aaf17ff7fe7d" />
+
 2. Total Livestock by State
    
 Calculated total livestock processed per state  
+
+<img width="1063" height="633" alt="query2" src="https://github.com/user-attachments/assets/cb57546c-f73b-4667-b42e-0f1543de3198" />
 
 **Insight:
 
