@@ -49,12 +49,9 @@ ORDER BY avg_annual_thousands DESC;
 #Last 5 years, cattle slaughter by state
   
 SELECT 
-    year, 
-    state, 
-    count_thousands
+  year, state, count_thousands
 FROM livestock_clean
-WHERE category = 'CATTLE'
-AND year >= (SELECT MAX(year) - 4 FROM livestock_clean)
+WHERE category = 'CATTLE' AND year >= 2020
 ORDER BY year, count_thousands DESC;
 
 #Peak year for lamb slaughter nationally
